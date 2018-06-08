@@ -1,0 +1,5 @@
+future==0.16.0
+requests==2.18.4
+python_telegram_bot==9.0.0
+telegram==0.0.1
+PyYAML==3.12

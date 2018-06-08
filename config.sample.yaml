@@ -1,0 +1,28 @@
+##################################
+# Telegram
+##################################
+
+# Telegram bot token supplied by the botfather
+TELEGRAM_BOT_TOKEN: "xxxxxxxxxxxxxxxxxx"
+
+# List of telegram user ids of the admins 
+LIST_OF_ADMINS:
+  - 12345456 # admin 1
+  - 678912345 # admin 2
+  - 678934764 # admin 3
+
+
+##################################
+# 1broker
+##################################
+MSG_HEADER_ONEBROKER: "my 1broker ref link header"
+BROKER_API_TOKEN: "my-1-broker-api-token"
+
+
+##################################
+# bitmex
+##################################
+MSG_HEADER_BITMEX: "my bitmex ref link header"
+SHITMEX_API_KEY: 'bitmex-api-key'
+SHITMEX_API_SECRET: 'bitmex-api-secret'
+
