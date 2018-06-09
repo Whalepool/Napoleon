@@ -1,5 +1,6 @@
 from functools import wraps
 import utils.loadconfig as config 
+import utils.wplogging as wplogging
 
 #################################
 # Admin control function 
@@ -23,7 +24,7 @@ def restricted(func):
                         print("No user_id available in update.")
                         return
         if user_id not in config.LIST_OF_ADMINS:
-            logger.info("Unauthorized access denied for {}.".format(user_id)+" ("+update.message.from_user.username+")  message: "+update.message.text)
+            wplogging.logger.info("Unauthorized access denied for {}.".format(user_id)+" ("+update.message.from_user.username+")  message: "+update.message.text)
             return
         return func(bot, update, *args, **kwargs)
     return wrapped
