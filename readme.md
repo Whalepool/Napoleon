@@ -8,16 +8,16 @@ Currently supported exchanges:
 - 1[Broker](http://1broker.whalepool.io)  
   
 
-### Requirements
-Install pip requirements `sudo pip3.6 install -r requirements.txt`  
-  
+### Install
+```bash
+git clone https://github.com/Whalepool/Napoleon.git napoleon  
+pip install -r requirements.txt
+```     
 
 ### Setup config
 `cp config.sample.yaml config.yaml`  
-Edit the config.yaml file accordingly  
   
 ### Run
-To run:  
 `python3.6 napoleon.py`  
   
 
